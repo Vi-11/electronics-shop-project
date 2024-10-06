@@ -6,8 +6,9 @@ class Item:
     all = []
 
     def __init__(self, name: str, price: float, quantity: int) -> None:
-        """
-        Создание экземпляра класса item.
+        self.name = name
+        self.price = price
+        self.quantity = quantity
 
 
     def calculate_total_price(self) -> float:
